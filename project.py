@@ -209,7 +209,7 @@ def manage_users():
 
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
-        server.login("vaibhavbhor473@gmail.com", "sokburqkxblkepfd")
+        server.login("vaibhavbhor473@gmail.com", "myPassword")
         text = msg.as_string()
         server.sendmail("Stark industries.", "vaibhavbhor472@gmail.com", text)
         server.quit()
